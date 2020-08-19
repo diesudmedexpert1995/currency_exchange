@@ -1,0 +1,77 @@
+* {
+    margin: 0 auto 0 auto;
+    padding: 0 auto 0 auto;
+}
+
+#header {
+    width: auto;
+    height: 450px;
+    text-align: center;
+    background-image: url(banner.jpg);
+    background-size: cover;
+}
+
+#header h1 {
+    padding: 100px 0 150px;
+
+
+}
+
+#header h1 a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s ease;
+}
+
+#header h1 a:hover {
+    color: cadetblue;
+}
+
+#menu {
+    background-color: white;
+    text-align: center;
+}
+
+#menu a {
+    margin-left: 75px;
+    margin-right: 75px;
+    padding: 13px 0;
+    line-height: 50px;
+    text-decoration: none;
+    color: #294d87;
+    font-weight: bold;
+    transition: background-color 0.8s ease;
+
+
+}
+
+#menu a:hover {
+
+    background-color: burlywood;
+}
+
+#main {
+    width: 700px;
+    padding: 50px 0 0 0;
+}
+
+#footer {
+    height: 120px;
+    background-color: #2f3a44;
+    color: #e8e8e8;
+    padding-top: 20px;
+}
+
+#footer-left {
+    text-align: center;
+
+}
+
+#footer-right {
+
+    text-align: center;
+}
+
+#footer-left p {
+    margin-bottom: 8px;
+}
